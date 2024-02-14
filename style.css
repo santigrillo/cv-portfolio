@@ -7,8 +7,8 @@ body{
 }
 
 #dark-mode-toggle-1 {
-    --dark-mode-toggle-dark-icon: url('/cv-portfolio/assets/moon.svg');
-    --dark-mode-toggle-light-icon: url('/cv-portfolio/assets/sun.svg');
+    --dark-mode-toggle-dark-icon: url('assets/moon.svg');
+    --dark-mode-toggle-light-icon: url('assets/sun.svg');
     transition: all .4s ease;
     border-radius: 10px;
     margin: 0px;
@@ -330,13 +330,13 @@ footer span{
 
     #skillsitems{
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
     #skillsitems ul li{
         font-size: 14px;
+        margin: 5px;
     }
 
     #educacion{
