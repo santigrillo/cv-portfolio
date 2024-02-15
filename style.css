@@ -9,8 +9,8 @@ body{
 }
 
 #dark-mode-toggle-1 {
-    --dark-mode-toggle-dark-icon: url('assets/moon.svg');
-    --dark-mode-toggle-light-icon: url('assets/sun.svg');
+    --dark-mode-toggle-dark-icon: url('/cv-portfolio/assets/moon.svg');
+    --dark-mode-toggle-light-icon: url('/cv-portfolio/assets/sun.svg');
     transition: all .4s ease;
     border-radius: 10px;
     margin: 0px;
