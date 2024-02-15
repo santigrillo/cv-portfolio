@@ -9,8 +9,8 @@ body{
 }
 
 #dark-mode-toggle-1 {
-    --dark-mode-toggle-dark-icon: url('/cv-portfolio/assets/moon.svg');
-    --dark-mode-toggle-light-icon: url('/cv-portfolio/assets/sun.svg');
+    --dark-mode-toggle-dark-icon: url('assets/moon.svg');
+    --dark-mode-toggle-light-icon: url('assets/sun.svg');
     transition: all .4s ease;
     border-radius: 10px;
     margin: 0px;
@@ -34,19 +34,12 @@ body header{
     padding: 20px 0px;
 }
 
-
-#linemid{
-    width: 1px;
-    height: 22px;
-    background-color: #f5f5f5;
-}
-
 #rightmenu{
     display: flex;
 }
 
 #rightmenu a{
-    color: #f5f5f5;
+    color: var(--textColor);
     text-decoration: none;
     transition: all .3s ease;
     margin: 10px;
@@ -60,6 +53,9 @@ body header{
 
 
 /* Personal */
+#gxt{
+    color: #686767;
+}
 
 #personal{
     display: flex;
@@ -70,13 +66,17 @@ body header{
     align-items: center;
 }
 
+#githubxw{
+    color: #B3DC5D;
+}
+
 #personal h2{
-    color: #f5f5f5;
+    color: var(--textColor);
     font-size: 50px;
 }
 
 #personal p{
-    color: #f5f5f5;
+    color: var(--textColor);
     width: 70%;
     font-size: 25px;
     text-align: center;
@@ -90,7 +90,7 @@ body header{
 }
 
 .redes a{
-    color: #1D1D1D;
+    color: #212529;
     text-decoration: none;
     transition: all .5s ease;
     border-radius: 100px;
@@ -108,7 +108,7 @@ body header{
     align-items: center;
 }
 
-#btnmain img{
+#btnmain svg{
     margin-left: 10px;
 }
 
@@ -116,7 +116,7 @@ body header{
     transform: scale(1.04);
 }
 
-.xred img{
+.xred svg{
     width: 25px;
     height: 25px;
     padding: 7px;
@@ -125,6 +125,7 @@ body header{
 
 #git:hover{
     background-color: #BB5DDC;
+
 }
 
 #wsp:hover{
@@ -141,7 +142,7 @@ body header{
     animation:  upAndDown  2s infinite;
 }
 
-#downicon img{
+#downicon svg{
     width: 30px;
     height: 30px;
 }
@@ -171,7 +172,7 @@ body header{
 }
 
 #skills p{
-    color: #f5f5f5;
+    color: var(--textColor);
     width: 70%;
     position: relative;
     top: -25px;
@@ -208,7 +209,7 @@ body header{
     height: 2px;
     position: relative;
     top: 45px;
-    background-color: #f5f5f5;
+    background-color:var(--textColor);
     animation: expandDivisor 2s infinite;
 }
 
@@ -242,11 +243,10 @@ body header{
     font-size: 25px;
     width: 20px;
     justify-content: space-around;
-    font-weight: 700;
     animation: expandDivisorPM 2s infinite;
 }
 
-#divisorpm img{
+#divisorpm svg{
     width: 25px;
     height: 25px;
     margin: 2px;
@@ -355,3 +355,5 @@ footer span{
         text-align: center;
     }
 }
+
+
