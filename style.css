@@ -3,7 +3,9 @@
 }
 
 body{
-    background-color: #2E2F34;
+    /* background-color: #2E2F34; */
+    background-color: var(--backgroundColor);
+    transition: all .2s ease;
 }
 
 #dark-mode-toggle-1 {
@@ -37,6 +39,10 @@ body header{
     width: 1px;
     height: 22px;
     background-color: #f5f5f5;
+}
+
+#rightmenu{
+    display: flex;
 }
 
 #rightmenu a{
@@ -232,6 +238,7 @@ body header{
 #divisorpm{
     position: relative;
     display: flex;
+    top: 40px;
     font-size: 25px;
     width: 20px;
     justify-content: space-around;
@@ -299,7 +306,7 @@ footer span{
     color: #686767;
 }
 
-@media (max-width:700px){
+@media (max-width:720px){
     #rightmenu{
         display: none;
     }

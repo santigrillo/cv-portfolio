@@ -1,5 +1,8 @@
 :root{
     color-scheme: dark;
     
+
+    --backgroundColor: #212529;
+
     --backgroundbutton:#474745;
 }
